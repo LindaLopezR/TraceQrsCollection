@@ -1,8 +1,3 @@
 import { Mongo } from 'meteor/mongo';
 
-class TraceQrsCollection extends Mongo.Collection {
-
-}
-
-export const TraceQrs = new TraceQrsCollection('traceQrs');
-TraceQrs.attachBehaviour('timestampable');
+export const TraceQrs = new Mongo.Collection('traceQrs');
